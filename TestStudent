@@ -1,0 +1,11 @@
+public class TestStudent{
+
+public static void main(sting[] args){
+
+Scanner input = New Scanner(system.in);
+
+system.out.println("enter your name")
+}
+
+
+}
