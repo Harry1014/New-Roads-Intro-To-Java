@@ -3,7 +3,20 @@ public class CardTester{
   
   public static void main(String[] args){
     
-    Card c= new Card();
+   /* Card card = new card("red","diamond", '8');
+System.out.println(card);
+*/    
+    
+  /*  RedCard rCard = new RedCard();
+    rCard.setSuit("diamonds");
+    rCard.setRank('9');
+    System.out.println(rCard);
+   */ 
+   BlackCard bCard = new BlackCard();
+    bCard.setSuit("clubs");
+    bCard.setRank('5');
+    System.out.println(bCard);
+   /* Card c= new Card();
     
     c.setColor("black");
     c.setSuit("clubs");
@@ -44,7 +57,7 @@ public class CardTester{
     
     
             System.out.println(c.toString());
-
+*/
     }
   
   
